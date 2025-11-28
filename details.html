@@ -6,10 +6,13 @@
     <title>Génie végétal des berges</title>
 
 <script type="module">
-  import initSmoothScroll from "https://cdn.jsdelivr.net/gh/alexandre-maignan/tools/smooth-scroll.js";
+import initSmoothScroll from "https://cdn.jsdelivr.net/gh/alexandre-maignan/tools/smooth-scroll.js";
 
-  // Initialisation simple avec les valeurs par défaut
-  initSmoothScroll();
+initSmoothScroll({
+    ease: 0.12,
+    scrollMult: 1.2,
+    offset: 0
+});
 </script>
     
     <style>
@@ -304,5 +307,6 @@ En 3 saisons, diminution de 70 % des débordements de fossés et amélioration d
     </div>
 </body>
 </html>
+
 
 
